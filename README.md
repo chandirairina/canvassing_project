@@ -9,7 +9,7 @@ Photo by cottonbro from <a href="https://www.pexels.com/photo/person-using-a-sma
 <br>
 Conventionally, it is done by directly visiting the target spot or manually search on the internet, for example. However, it becomes troublesome when the target number of merchants is considerably high, let's say, 50 merchants per month. Getting 50 data manually is already no vacation, let alone the fact that not all 50 will agree to join our platform. 
 <br><br>
-Therefore, we could use Selenium to help us getting the data that we previously need to do manually. We could even get much more than 50 data as a back up. It may take time to run the script, but spending one day to retrieve hundreds of data will be worth the time since the remaining days could be spent on focusing to approach the potential merchants from the data retrieved.
+We could use Selenium to help us getting the data that we previously need to do manually. We could even get much more than 50 data as a back up. It may take time to run the script, but spending one day to retrieve hundreds of data will be worth the time since the remaining days could be spent on focusing to approach the potential merchants from the data retrieved.
 <br><br>
 Here, I use Selenium to scrape information from Google Maps. <br>
 First, we decide on the area of focus that we would like to target, then direct our browser to the Google Maps url of that location using chromedriver (as I use Chrome), and finally retrieve the information. The information needed are: name of the restaurant, its address, and its phone number. We could also add other information as long as it is available on the information card shown in Google Maps page. Dig in to the code for further details on how to do that! :)
